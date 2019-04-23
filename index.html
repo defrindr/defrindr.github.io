@@ -1,0 +1,179 @@
+<html>
+	<head>
+		<title>Defri Indra M</title>
+
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<!-- Preloader Css -->
+		<link rel="stylesheet" href="pl/preloader.css">
+		<link rel="stylesheet" href="scrolllbar.css">
+		<!-- CSS Custom -->
+		<style>
+			/*Import Cute Font*/
+			@import url('https://fonts.googleapis.com/css?family=Cute+Font');
+			body{
+				background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+				background-size: 200% 200%;
+				-webkit-animation: back-animation 9s ease infinite;
+				-moz-animation: back-animation 9s ease infinite;
+				animation: back-animation 9s ease infinite;
+				font-family: 'Cute Font', cursive;
+				color: #fff;
+				font-size: 18px;
+				min-height: 100vh;
+			}
+
+			/*Animation For Background*/
+			@-webkit-keyframes back-animation {
+			    0%{background-position:0% 2%}
+			    50%{background-position:100% 99%}
+			    100%{background-position:0% 2%}
+			}
+			@-moz-keyframes back-animation {
+			    0%{background-position:0% 2%}
+			    50%{background-position:100% 99%}
+			    100%{background-position:0% 2%}
+			}
+			@keyframes back-animation { 
+			    0%{background-position:0% 2%}
+			    50%{background-position:100% 99%}
+			    100%{background-position:0% 2%}
+			}
+
+			.container > a{
+				border: 2px solid #fff;
+				color: #fff;
+				padding: 10px 50px;
+				border-radius: 10px;
+				text-decoration: none;
+				transition: 0.5s;
+			}
+			.container > a:hover{
+				background: rgba(45,200,10,.3);
+				transition: 0.5s;
+			}
+
+			.container{
+				text-align: center;
+			}
+
+			h1 {
+				font-size: 100px;
+			}
+			h2 {
+				font-size: 40px;
+			}
+
+			.logo {
+				font-size: 100px;
+				text-shadow: 2px 2px 30px 4px #333;
+				transition: 1s;
+			}
+			.logo:hover {
+				font-size: 150px;
+				transition: 1s;
+			}
+
+			.pict {
+				border-radius: 100%;
+				box-shadow: 2px 2px 30px 4px #333;
+				margin: 100px auto;
+				width: 450px;
+				height: 450px;
+			}
+			footer {
+				text-align: right;
+				padding: 40px 10px 0;
+			}
+			.hidden {
+				display: none;
+			}
+			.overlay {
+				position: fixed;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				left: 0;
+				background: rgba(0,0,0,.6);
+				text-align: center;
+			}
+			.img-hidden {
+				margin: 100px auto;
+				width: 80%;
+				height: 80%;
+				box-shadow: 2px 2px 100px 10px #fff;
+				border-radius: 10px;
+			}
+			.closeButton {
+				color: #fff;
+				text-decoration: bold;
+				position: absolute;
+				top: 4px;
+				right: 12px;
+				font-family: monospace;
+				font-size: 34px;
+			}
+			#clock {
+				font-size: 3em;
+				position: absolute;
+				top: 4px;
+				left: 12px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="overlay hidden" id="modal">
+			<div class="show-pict">
+				<span class="closeButton" onclick="hideModal()">x</span>
+				<img src="" alt="" id="imgTarget" class="img-hidden">
+			</div>
+		</div>
+		<div class="container">
+			<div class="banner">
+				<img src="banner.jpg" alt="Defri Indra M" id="photo" class="pict" onclick="showPict(this)">
+			</div>
+			<div id="clock"></div>
+			<h1>Hy , I am Defri Indra Mahardika</h1>
+			<i class="fas fa-laptop-code logo"></i>
+			<h2>CTFer - Junior Programmer - Pentester</h2>
+			<a href="https://www.facebook.com/profile.php?id=100006450608678">Facebook</a>
+			<a href="https://t.me/defrindr">Telegram</a>
+			<a href="https://github.com/greyxploiter">Github</a>
+			<a href="https://www.instagram.com/defrindr/">Instagram</a>
+		</div>
+		<footer>
+			<span id="tahun">2016</span> &copy; Defri Indra M
+		</footer>
+
+		<script>
+
+			//show Jam
+			function setTime(self){
+				const time = new Date();
+				document.getElementById('clock').innerHTML = time.getHours()+" : "+time.getMinutes()+" : "+time.getSeconds();
+			}
+			setInterval(setTime,1000);
+			// show modal
+			function showPict(self){
+				pict = self.src;
+				target = document.getElementById('modal');
+				imgTarget = document.getElementById('imgTarget');
+				// target
+				imgTarget.src = pict;
+				target.classList.remove('hidden')
+
+			}
+
+			// Hide modal
+			function hideModal(){
+				modal = document.getElementById('modal');
+				modal.className += " hidden";
+			}
+
+			// Show Current Year in footer
+			document.getElementById("tahun").innerHTML = new Date().getFullYear();
+		</script>
+		<script src="script.js"></script>
+		<script src="pl/preloader.js"></script>
+	</body>
+</html>
