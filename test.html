@@ -1,0 +1,10 @@
+<html>
+  <script>
+    if(confirm("isokan???")){
+      fetch("https://private-anon-9a6521ad33-goquotes.apiary-proxy.com/api/v1/random?count=1").then(res=>{
+        alert(res.quotes[0].text);
+        alert("Oleh : "res.quotes[0].author);
+      })
+    }
+  </script>
+</html>
