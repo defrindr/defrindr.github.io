@@ -1,3 +1,275 @@
 {
-    "app_name": "My Portfolio"
+    "webInfo": {
+        "app_name": "Defri Indra M",
+        "homepage": {
+            "intro": "Hey There,\nI'am Defri Indra Mahardika\nA Software Developer\nSpecializing in\nBackend Development\n",
+            "link_cv": "/cv.pdf",
+            "link_image": "images/home.jpeg"
+        },
+        "portfoliopage": {
+            "title": "List of My Portfolio",
+            "subtitle": "Take a look at some of my best work I put together.",
+            "portfolio": [{
+                    "name": "TIM app - Sales Management",
+                    "description": "Realtime sales, warehouse, and finance monitoring management application for companies.",
+                    "year": 2021,
+                    "role": "Backend Developer",
+                    "urlPlaystore": "https://play.google.com/store/apps/details?id=com.timapp.salesmanagement",
+                    "urlWebsite": "http://timapp.id",
+                    "carausel": [
+                        "/images/portfolio/timapp/1.jpeg",
+                        "/images/portfolio/timapp/2.jpeg",
+                        "/images/portfolio/timapp/3.jpeg",
+                        "/images/portfolio/timapp/4.png"
+                    ]
+                },
+                {
+                    "name": "Lubuk Linggau - Silampari Smart City",
+                    "description": "Silampari Smart City is an official application from the city of Lubuklinggau, which has features including:\n\n1. Citizen Report\n2. Sectoral Data Information\n3. Public Map\n4. CCTV\n5. Prices of basic commodities\n6. Agenda Information",
+                    "year": 2021,
+                    "role": "Backend Developer",
+                    "urlPlaystore": "https://play.google.com/store/apps/details?id=com.lubuklinggau.smartcity",
+                    "urlWebsite": "http://silamparismartcity.lubuklinggaukota.go.id",
+                    "carausel": [
+                        "/images/portfolio/silampari/1.png",
+                        "/images/portfolio/silampari/2.png",
+                        "/images/portfolio/silampari/3.png"
+                    ]
+                },
+                {
+                    "name": "Pens Preneur",
+                    "description": "Pens Preneur is a website with the topic of entrepreneurship. This site aims to introduce student-owned businesses and convey all information related to entrepreneurship.",
+                    "year": 2022,
+                    "role": "Web Developer",
+                    "urlPlaystore": null,
+                    "urlWebsite": "http://kewirausahaan.pens.ac.id/",
+                    "carausel": [
+                        "/images/portfolio/kewirausahaan/1.png",
+                        "/images/portfolio/kewirausahaan/2.png",
+                        "/images/portfolio/kewirausahaan/3.png"
+                    ]
+                },
+                {
+                    "name": "Kalender Pintar Pengasuhan (BKKBN Jawa Timur)",
+                    "description": "Aplikasi Kalender Pintar Pengasuhan (Smart Parenting Calendar Application) is a calendar application that is used to improve the abilities and skills of parents in caring for children properly and correctly at 1000 HPK so that children grow and develop optimally.",
+                    "year": 2021,
+                    "role": "Backend Developer",
+                    "urlPlaystore": "https://play.google.com/store/apps/details?id=com.bkkbn1000hpk",
+                    "urlWebsite": null,
+                    "carausel": [
+                        "/images/portfolio/bkkbn-hpk/0.png",
+                        "/images/portfolio/bkkbn-hpk/1.png",
+                        "/images/portfolio/bkkbn-hpk/2.png"
+                    ]
+                },
+                {
+                    "name": "E-Buddy",
+                    "description": "Added several new features such as Project & Task Management, Integration with SKP Sidoarjo, Protection of pdf file output, and optimization of SQL performance.",
+                    "role": "Backend Developer",
+                    "year": 2021,
+                    "urlPlaystore": null,
+                    "urlWebsite": null,
+                    "carausel": [
+                        "/images/portfolio/ebuddy/0.png",
+                        "/images/portfolio/ebuddy/1.png",
+                        "/images/portfolio/ebuddy/2.png",
+                        "/images/portfolio/ebuddy/3.png"
+                    ]
+                },
+                {
+                    "name": "HOME-i",
+                    "description": "The Homei contractor application is a contractor application to make it easier for people to consult in the construction of houses and buildings.\n People can consult directly through the chat in the application.\n \n They can submit a new project and project budget only through the application and the technicians will come to the site to check the site.\n \n One can also hire a small technician to fix or fix a problem at home and the technician will come",
+                    "role": "Backend Developer",
+                    "year": 2021,
+                    "urlPlaystore": "https://play.google.com/store/apps/details?id=com.home_i",
+                    "urlWebsite": "https://homei.co.id/web",
+                    "carausel": [
+                        "/images/portfolio/homei/0.png",
+                        "/images/portfolio/homei/1.png",
+                        "/images/portfolio/homei/2.png",
+                        "/images/portfolio/homei/3.png"
+                    ]
+                },
+                {
+                    "name": "JDIH Kota Blitar",
+                    "description": "JDIH Kota Blitar is a system of joint utilization of laws and regulations and other legal documentation materials in an orderly, integrated and sustainable manner and is a means of providing legal information services easily, quickly and accurately.",
+                    "role": "Developer",
+                    "year": 2020,
+                    "urlPlaystore": "https://play.google.com/store/apps/details?id=go.id.blitarkota.project.jdihkotablitar",
+                    "urlWebsite": "https://jdih.blitarkota.go.id/",
+                    "carausel": [
+                        "/images/portfolio/jdihblitar/0.png",
+                        "/images/portfolio/jdihblitar/1.png",
+                        "/images/portfolio/jdihblitar/2.png",
+                        "/images/portfolio/jdihblitar/3.png",
+                        "/images/portfolio/jdihblitar/4.png",
+                        "/images/portfolio/jdihblitar/5.png"
+                    ]
+                },
+                {
+                    "name": "Development Dawami Mantan",
+                    "description": "Implemented several updates such as cleaned up existing excel export, added excel export in some menus, added a feature to export attendees from old events, and updated database columns. Project based on laravel inertia.",
+                    "role": "Freelance Developer",
+                    "year": 2022,
+                    "urlPlaystore": null,
+                    "urlWebsite": null,
+                    "carausel": [
+                        "/images/portfolio/dawami/0.png",
+                        "/images/portfolio/dawami/1.png",
+                        "/images/portfolio/dawami/2.png"
+                    ]
+                },
+                {
+                    "name": "ULPIM Kota Blitar",
+                    "description": "Integrate existing system with LAPOR",
+                    "role": "Freelance Developer",
+                    "year": 2020,
+                    "urlPlaystore": null,
+                    "urlWebsite": null,
+                    "carausel": [
+                        "/images/portfolio/ulpim/0.png",
+                        "/images/portfolio/ulpim/1.png"
+                    ]
+                },
+                {
+                    "name": "Mocata",
+                    "description": "Mocata is a system developed to monitor a person's body temperature when entering an area. Also accompanied by employee attendance, which can be integrated with the employee payroll system.",
+                    "role": "Backend Developer",
+                    "year": 2021,
+                    "urlPlaystore": null,
+                    "urlWebsite": "http://mocata.id",
+                    "carausel": [
+                        "/images/portfolio/mocata/0.png",
+                        "/images/portfolio/mocata/1.png",
+                        "/images/portfolio/mocata/2.png"
+                    ]
+                },
+                {
+                    "name": "PENS Map",
+                    "description": "",
+                    "role": "Web Developer",
+                    "year": 2022,
+                    "urlPlaystore": null,
+                    "urlWebsite": "http://map.codexacademy.id",
+                    "carausel": [
+                        "/images/portfolio/pensmap/0.png",
+                        "/images/portfolio/pensmap/1.png",
+                        "/images/portfolio/pensmap/2.png"
+                    ]
+                },
+                {
+                    "name": "PLN - WANI",
+                    "description": "PLN - WANI is the ultimate project management tool. Manage projects, delegate tasks, and collaborate with others people.",
+                    "role": "Web Developer",
+                    "year": 2021,
+                    "urlPlaystore": null,
+                    "urlWebsite": "https://codexacademy.id/taskpln/",
+                    "carausel": [
+                        "/images/portfolio/plntaskmanagement/0.png",
+                        "/images/portfolio/plntaskmanagement/1.png",
+                        "/images/portfolio/plntaskmanagement/2.png"
+                    ]
+                },
+                {
+                    "name": "PORTAPP",
+                    "description": "PORTAPP (Portfolio APP) is a dynamic portfolio website that can be managed from the backend side.",
+                    "role": "Web Developer",
+                    "year": 2022,
+                    "urlPlaystore": null,
+                    "urlWebsite": null,
+                    "carausel": [
+                        "/images/portfolio/portfolioapp/0.png",
+                        "/images/portfolio/portfolioapp/1.png",
+                        "/images/portfolio/portfolioapp/2.png",
+                        "/images/portfolio/portfolioapp/3.png",
+                        "/images/portfolio/portfolioapp/4.png"
+                    ]
+                }
+            ]
+        },
+        "contactpage": {
+            "image": "/images/contact.png",
+            "intro": "Hi, Defri here. The best way to contact me depends upon the nature of your inquiry. So…",
+            "social_title": "Social Media",
+            "social_description": "I'm always open to new opportunities and new ideas.",
+            "social_account": [{
+                    "name": "Github",
+                    "url": "https://github.com/defrindr",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "name": "Linkedin",
+                    "url": "https://linkedin.com/in/defrindr",
+                    "icon": "fab fa-linkedin"
+                },
+                {
+                    "name": "Instagram",
+                    "url": "https://instagram.com/defrindr",
+                    "icon": "fab fa-instagram"
+                },
+                {
+                    "name": "Facebook",
+                    "url": "https://facebook.com/defrindr",
+                    "icon": "fab fa-facebook"
+                },
+                {
+                    "name": "Glints",
+                    "url": "https://glints.com/id/profile/public/e106149c-5afc-4401-9358-281d3f9668d7",
+                    "icon": "fa fa-star"
+                }
+            ],
+            "email_title": "Business",
+            "email_description": "You can also contact me via email.",
+            "email_bussiness": [{
+                "name": "Email Me",
+                "url": "mailto:defrindr@gmail.com",
+                "icon": "fa fa-envelope"
+            }]
+        },
+        "aboutpage": {
+            "image": "/images/about.jpeg",
+            "intro": "I'm Defri, a Software Developer based in Surabaya, Indonesia.",
+            "description": "Hi there! I was born and raised in Ponorogo, and currenly i'am based on Surabaya, Indonesia.\n\nI'm an experienced developing web using PHP Framework like Yii2, Laravel, and CodeIgniter. I also experienced following code standard community and clean code guide.\n\nI always improve my skills and experience day by day.As Steve Jobs said",
+            "quotes": "Stay hungry, Stay foolish",
+            "image2": "/images/about-2.jpeg",
+            "awards": [{
+                    "title": "3rd Position",
+                    "subtitle": "Student Competency Competition",
+                    "starttime": "/Date(2020-02-01T13:28:06.419Z)/",
+                    "endtime": null,
+                    "description": "3rd Position of student competency competitions (LKS) Web Technology Provinsi Jawa Timur"
+                },
+                {
+                    "title": "2nd Position",
+                    "subtitle": "Student Competency Competition",
+                    "starttime": "/Date(2019-12-01T13:28:06.419Z)/",
+                    "endtime": null,
+                    "description": "2nd Position of student competency competitions (LKS) Web Technology Karisidenan Madiun"
+                }
+            ],
+            "experiences": [{
+                    "title": "Developer",
+                    "subtitle": "PT Promedia Citra Informatindo",
+                    "starttime": "/Date(2020-09-01T13:28:06.419Z)/",
+                    "endtime": null,
+                    "description": "Work as a team, meet with clients, design database models, build APIs used by Android apps and IoT devices. Some of what I do is create a company profile website, website management information system, and several products from vendors"
+                },
+                {
+                    "title": "Backend Developer",
+                    "subtitle": "Lanis IT Support",
+                    "starttime": "/Date(2020-11-01T13:28:06.419Z)/",
+                    "endtime": "/Date(2021-02-01T13:28:06.419Z)/",
+                    "description": "Work as a team, create application ERDs, design database models, create backend templates, build APIs used by Android applications and IoT devices, integration with several third-party modules"
+                },
+                {
+                    "title": "Intern Developer",
+                    "subtitle": "CV. Inovasi Digital Indonesia",
+                    "starttime": "/Date(2018-09-01T13:28:06.419Z)/",
+                    "endtime": "/Date(2019-03-01T13:28:06.419Z)/",
+                    "description": "Work as a team. Some of the projects that i have worked on are inputing master data, change template of company profile, creating crud master data, and meet client to installing application in client device."
+                }
+            ]
+        }
+    },
+    "theme": "happythene"
 }

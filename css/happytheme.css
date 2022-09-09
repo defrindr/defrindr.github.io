@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.happytheme {
+    font-family: 'Poppins', sans-serif;
+}
+
+.happytheme .navbar-brand {
+    color: rgb(101, 162, 206);
+    font-weight: 700;
+}
+
+.happytheme img {
+    border: 3px solid rgb(101, 162, 206);
+    padding: 5px;
+    filter: blur(.2);
+}
+
+.happytheme .border-bottom-dotted {
+    border-bottom: 3px solid rgb(101, 162, 206);
+}
+
+.happytheme .display-1,
+.happytheme .display-2,
+.happytheme .display-3,
+.happytheme .display-4,
+.happytheme .display-5,
+.happytheme .display-6 {
+    color: rgb(101, 162, 206)!important;
+    font-weight: bold;
+}
+
+.happytheme p {
+    color: #000;
+}
+
+.happytheme .mybtn {
+    border: 2px solid rgb(101, 162, 206);
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: rgb(81, 140, 183);
+}
+
+.happytheme a {
+    text-decoration: none;
+    color: rgb(101, 162, 206);
+}
+
+.happytheme .mybtn:hover {
+    color: rgb(101, 162, 206);
+    border-color: rgb(101, 162, 206);
+}
+
+.happytheme pre {
+    border-left: 2px solid #666;
+    padding: 5px 5px 5px 20px;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.happytheme .stereotipe {
+    background-color: rgb(101, 162, 206);
+    color: #FFF;
+    padding: 0px 2px;
+    font-style: italic;
+}

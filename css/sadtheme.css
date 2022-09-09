@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.sadtheme {
+    font-family: 'Space Mono', monospace;
+    background-color: #222;
+    color: #888;
+}
+
+.sadtheme .modal-content {
+    background-color: #222;
+    color: #888;
+}
+
+.sadtheme .modal-content .btn-close {
+    color: #888!important;
+}
+
+.sadtheme .modal-content table {
+    color: #888;
+}
+
+.sadtheme img {
+    /* filter: grayscale(1); */
+    border: 3px dashed #444;
+    padding: 5px;
+}
+
+.sadtheme .border-bottom-dotted {
+    border-bottom: 3px dotted #888;
+}
+
+.sadtheme p {
+    color: #aeaeae;
+}
+
+.sadtheme .navbar a,
+.sadtheme .nav-link {
+    color: #aeaeae !important;
+}
+
+.sadtheme .nav-link.active {
+    color: #fff !important;
+}
+
+.sadtheme .card {
+    background-color: #222 !important;
+    border-color: #444 !important;
+}
+
+.sadtheme .display-1,
+.sadtheme .display-2,
+.sadtheme .display-3,
+.sadtheme .display-4,
+.sadtheme .display-5,
+.sadtheme .display-6 {
+    color: #888!important;
+    font-weight: inherit;
+}
+
+.sadtheme .mybtn {
+    border: 3px dotted #888;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #aeaeae;
+}
+
+.sadtheme a {
+    text-decoration: none;
+    color: #888;
+}
+
+.sadtheme .mybtn:hover {
+    color: #888;
+    border-color: #888;
+}
+
+.sadtheme pre {
+    border-left: 2px solid #666;
+    padding: 5px 5px 5px 20px;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.sadtheme .stereotipe {
+    background-color: #aeaeae;
+    color: #FFF;
+    padding: 0px 2px;
+    font-style: italic;
+}
