@@ -2,14 +2,15 @@
     "webInfo": {
         "app_name": "Defri Indra M",
         "homepage": {
-            "intro": "Hey There,\nI'am Defri Indra Mahardika\nA Software Developer\nSpecializing in\nBackend Development\n",
+            "intro": "Hey There,\nI'am Defri Indra Mahardika\nA Software Developer\nSpecializing in\nBackend & Mobile Development\n",
             "link_cv": "/cv.pdf",
             "link_image": "images/home.jpeg"
         },
         "portfoliopage": {
             "title": "List of My Portfolio",
             "subtitle": "Take a look at some of my best work I put together.",
-            "portfolio": [{
+            "portfolio": [
+                {
                     "name": "TIM app - Sales Management",
                     "description": "Realtime sales, warehouse, and finance monitoring management application for companies.",
                     "year": 2021,
@@ -190,7 +191,8 @@
             "intro": "Hi, Defri here. The best way to contact me depends upon the nature of your inquiry. So…",
             "social_title": "Social Media",
             "social_description": "I'm always open to new opportunities and new ideas.",
-            "social_account": [{
+            "social_account": [
+                {
                     "name": "Github",
                     "url": "https://github.com/defrindr",
                     "icon": "fab fa-github"
@@ -218,11 +220,13 @@
             ],
             "email_title": "Business",
             "email_description": "You can also contact me via email.",
-            "email_bussiness": [{
-                "name": "Email Me",
-                "url": "mailto:defrindr@gmail.com",
-                "icon": "fa fa-envelope"
-            }]
+            "email_bussiness": [
+                {
+                    "name": "Email Me",
+                    "url": "mailto:defrindr@gmail.com",
+                    "icon": "fa fa-envelope"
+                }
+            ]
         },
         "aboutpage": {
             "image": "/images/about.jpeg",
@@ -230,7 +234,8 @@
             "description": "Hi there! I was born and raised in Ponorogo, and currenly i'am based on Surabaya, Indonesia.\n\nI'm an experienced developing web using PHP Framework like Yii2, Laravel, and CodeIgniter. I also experienced following code standard community and clean code guide.\n\nI always improve my skills and experience day by day.As Steve Jobs said",
             "quotes": "Stay hungry, Stay foolish",
             "image2": "/images/about-2.jpeg",
-            "awards": [{
+            "awards": [
+                {
                     "title": "3rd Position",
                     "subtitle": "Student Competency Competition",
                     "starttime": "/Date(2020-02-01T13:28:06.419Z)/",
@@ -245,7 +250,8 @@
                     "description": "2nd Position of student competency competitions (LKS) Web Technology Karisidenan Madiun"
                 }
             ],
-            "experiences": [{
+            "experiences": [
+                {
                     "title": "Developer",
                     "subtitle": "PT Promedia Citra Informatindo",
                     "starttime": "/Date(2020-09-01T13:28:06.419Z)/",
