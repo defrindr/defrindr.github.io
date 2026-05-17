@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Defri Indra Mahardika - Software Developer specializing in Backend & Mobile Development">
+  <meta name="theme-color" content="#0f172a">
+  <title>Defri Indra Mahardika | Software Developer</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a href="#home" class="skip-link">Skip to content</a>
 
+  <header class="site-header" role="banner">
+    <nav class="nav-container" role="navigation" aria-label="Main navigation">
+      <a href="#home" class="nav-logo">defrindr</a>
+
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a href="#home" role="menuitem" class="nav-link active">Home</a></li>
+        <li role="none"><a href="#about" role="menuitem" class="nav-link">About</a></li>
+        <li role="none"><a href="#portfolio" role="menuitem" class="nav-link">Portfolio</a></li>
+        <li role="none"><a href="#contact" role="menuitem" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+        </button>
+
+        <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="section hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <p class="hero-greeting">Hey There,</p>
+            <h1 class="hero-name">Defri Indra Mahardika</h1>
+            <p class="hero-role">A Software Developer</p>
+            <p class="hero-specialization">Specializing in <span class="highlight">Backend & Mobile Development</span></p>
+            <div class="hero-actions">
+              <a href="/CV Defri Indra Mahardika (1).pdf" class="btn btn-primary" download>
+                <i class="fas fa-download"></i> Download CV
+              </a>
+              <a href="#portfolio" class="btn btn-outline">
+                <i class="fas fa-briefcase"></i> View Portfolio
+              </a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <div class="hero-image-frame">
+              <img src="/images/home.jpeg" alt="Defri Indra Mahardika" class="hero-image" loading="eager">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+        <div id="about-content">
+          <div class="skeleton skeleton-title"></div>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">List of My Portfolio</h2>
+          <p class="section-subtitle">Take a look at some of my best work I put together.</p>
+        </div>
+        <div id="portfolio-grid" class="portfolio-grid">
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+        </div>
+      </div>
+
+      <div class="modal-overlay" id="portfolio-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+        <div class="modal-container">
+          <div class="modal-header">
+            <h3 id="modal-title" class="modal-title"></h3>
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-carousel" id="modal-carousel"></div>
+            <div class="modal-info" id="modal-info"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">I'm always open to new opportunities and new ideas.</p>
+        </div>
+        <div id="contact-content" class="contact-grid">
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="footer-year"></span> Defri Indra Mahardika. Built with <span class="heart">&hearts;</span></p>
+    </div>
+  </footer>
+
+  <div class="welcome-overlay" id="welcome-popup" role="dialog" aria-modal="true" aria-labelledby="welcome-title">
+    <div class="welcome-modal">
+      <button class="welcome-close" id="welcome-close" aria-label="Close welcome message">&times;</button>
+      <div class="welcome-content">
+        <div class="welcome-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <h2 id="welcome-title" class="welcome-title">Welcome to My Portfolio</h2>
+        <p class="welcome-text">Hi there! Thanks for stopping by. Feel free to explore my work and get to know me better.</p>
+        <button class="welcome-cta" id="welcome-cta">Let's Explore</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator" aria-hidden="true">
+    <span class="scroll-dot"></span>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
